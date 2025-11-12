@@ -1,4 +1,4 @@
 # Repair-guide
 A school project about repair
-> ![NOTE]
+> [!NOTE]
 > This is a school project, if you found this

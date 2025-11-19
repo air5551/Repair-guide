@@ -21,6 +21,7 @@ Its main function in a NAS is to store things other then your data, like applica
 
 > [!IMPORTANT]
 > the boot drive **CAN'T** be used as extra storage
+
 Its recommanded to get an SSD with 128GB of storage like this [one](https://www.amazon.com/Silicon-Power-128GB-P34A60-SP128GBP34A60M28/dp/B09HMWH1DG/)
 To disassemble the device follow this [Guide](Docs/Repair.md)
 

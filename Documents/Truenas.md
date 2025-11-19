@@ -28,7 +28,7 @@ Its recommanded to get an SSD with 128GB of storage like this (one)[https://www.
 ### Networking
 By default all devices on your home network can't be accessed by the wider internet
 one soluition is to do what is called port fowarding but this gets really complicated. 
-(Tailscale)[https://tailscale.com] is the simplist to set up and it's very secure, its like a private network that can accessed anywhere around the world, the only requiement is to be connected to the internet. 
+[Tailscale](https://tailscale.com)[ is the simplist to set up and it's very secure, its like a private network that can accessed anywhere around the world, the only requiement is to be connected to the internet. 
 
 
 

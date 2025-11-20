@@ -69,9 +69,14 @@ Skip the sign up prompt if you don't want the junk
 ### 2. Flash the USB drive
 
 Flash the USB drive using [Balena etcher](https://etcher.balena.io/)
- 1.
 
-<!-- Add More to this-->
+ ![Balenaetcher Main screen](Images/Balenaetcher-main.png)
+ Select the file you downloaded it's a .iso file
+ it goes like this but the version will change
+ then make sure that the USB drive is plugged in
+ just hit flash after
+ TrueNAS-SCALE-25.04.2.5.iso
+ 
 
 ### 3. Plug in the USB drive into the Laptop/Desktop
 
@@ -83,7 +88,7 @@ if you don't know search in this [list](https://www.disk-image.com/faq-bootmenu.
 > Often the mouse will not work in this menu so use the arrow keys to navigate this
 
 <details>
-<summary> Did you get a Security violation screen </summary>
+<summary> Did you get a Security violation screen/Secureboot? </summary>
 Search the same list for your bios key
 again the mouse may not work
 Then search the menus for security or something like that
@@ -93,6 +98,8 @@ last resort is to search
 How to disable secureboot on (Laptop/Desktop) 
 ```
 
-If your using a desktop search the hardware maker's logo, Like the HP logo on boot
+If your using a desktop search the motherboard maker (etc. Acer, Asrock, Asus)
+their logo should always display when you boot the device
 
 </details>
+

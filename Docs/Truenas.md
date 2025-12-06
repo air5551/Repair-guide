@@ -72,6 +72,8 @@ Skip the sign up prompt if you don't want the junk
 Flash the USB drive using [Balena etcher](https://etcher.balena.io/)
 
  ![Balenaetcher Main screen](Images/Balenaetcher-main.png)
+
+
  Select the file you downloaded it's a .iso file
  it goes like this but the version will change
  then make sure that the USB drive is plugged in

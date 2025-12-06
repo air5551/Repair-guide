@@ -64,6 +64,7 @@ the only requiement is to be connected to the internet.
 
 Go to this [Download Page](https://www.truenas.com/download-truenas-community-edition/)
 
+
 Skip the sign up prompt if you don't want the junk
 
 ### 2. Flash the USB drive
@@ -76,7 +77,7 @@ Flash the USB drive using [Balena etcher](https://etcher.balena.io/)
  then make sure that the USB drive is plugged in
  just hit flash after
  TrueNAS-SCALE-25.04.2.5.iso
- 
+
 
 ### 3. Plug in the USB drive into the Laptop/Desktop
 
@@ -94,12 +95,26 @@ again the mouse may not work
 Then search the menus for security or something like that
 last resort is to search
 
-```markdown
+```text
 How to disable secureboot on (Laptop/Desktop) 
 ```
 
-If your using a desktop search the motherboard maker (etc. Acer, Asrock, Asus)
+If your using a desktop, search the motherboard maker (etc. Acer, Asrock, Asus)
 their logo should always display when you boot the device
 
 </details>
+
+4. TrueNAS installer menu
+
+> [!NOTE]
+> The mouse will not work
+> Use the arrow keys and press enter to get threw the menus
+
+
+
+
+5. First Boot
+
+Wait for the device to boot
+
 

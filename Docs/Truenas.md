@@ -234,28 +234,48 @@ Press install
 
 
 
+### 9. Further Reading and WebDAV Clients
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> ![IMPORTANT]
-> Before starting make sure that **ALL** that are entended to connect to the NAS
+> [!IMPORTANT]
+> Before starting make sure that **ALL** devices
+> that are entended to connect to the NAS
 > have tailscale configured and running
+
+
+So On clients, I can't reasonably make a client guide due to the variation/OS diffrences
+but all of them do follow some basic ideas (Or should)
+
+When entering in a Tailscale URL, it should always be copied because
+tailscale does put a mysterious string like tail(A random ID) here
+like truenas.tail03b6h5.ts.net, It can be copied though the tailscale admin panel
+or a client device
+
+Tailscale URLs always start with Hostname.tail(A random id).ts.net
+like truenas.tail03b6h5.ts.net, they can be copied with the admin console by clicking
+on the 100.x.y.z address then copying the .ts.net address
+
+The WebDAV server URL will be diffrent from the trueNAS adminUI entered in
+step 5
+
+### Security
+
+If your hyperpranoid about some evil hackers trying to compromise your NAS
+you really shouldn't be worried, if the systems kept up to date.
+
+#### About Tailscales Security
+
+Everything sent accross it is end-to-end encrypted
+meaning that only your device and the NAS can see your data
+not even tailscale can see your traffic, if the data is captured in transit,
+tts only going to look like a garbled mess.
+This is one of the reasons why I did not use a VPN server for this guide.
+They tend to be complex and ISPs (Like comcast) block VPN traffic on their own hardware
+Security tends to be a nightmare because the data isn't fully end-to-end encrypted
+
+For more details [See tailscales explaination on "Zero Trust Networking"](https://tailscale.com/kb/1123/zero-trust)
+
+
+[TrueNAS Refrences and More explaination on how things are done](https://www.truenas.com/docs/references/)
 
 
 
